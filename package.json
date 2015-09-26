@@ -1,15 +1,15 @@
 {
-  "name": "ionic-timepicker",
-  "version": "0.3.0",
+  "name": "ionic-countdown-picker",
+  "version": "0.0.1",
   "authors": [
-    "rajeshwarpatlolla <rajeshwar.patlolla@gmail.com>"
+    "Johny Jugianto <johny.jugianto@gmail.com>"
   ],
-  "description": "A time picker for IONIC framework",
+  "description": "A countdown picker for IONIC framework",
   "main": [
-    "./dist/ionic-timepicker.bundle.min.js"
+    "./dist/ionic-countdown-picker.bundle.min.js"
   ],
   "scripts": {},
-  "author": "https://github.com/rajeshwarpatlolla, rajeshwar.patlolla@gmail.com",
+  "author": "https://github.com/l1nknyto, johny.jugianto@gmail.com",
   "license": "MIT",
   "dependencies": {},
   "devDependencies": {
