@@ -17,18 +17,19 @@
 
         var result = "";
         var valueInSeconds = input.inSeconds;
+        var roundFunction = (valueInSeconds >= 0) ? Math.floor : Math.ceil;
 
         if (useDays) {
-          var days = Math.floor(valueInSeconds / 86400);
+          var days = roundFunction(valueInSeconds / 86400);
           valueInSeconds = (valueInSeconds % 86400);
           result = days + daysLabel + " : ";
         }
 
-        var hours = Math.floor(valueInSeconds / 3600);
+        var hours = roundFunction(valueInSeconds / 3600);
         valueInSeconds = (valueInSeconds % 3600);
         result = result + hours + hoursLabel + " : ";
 
-        var minutes = Math.floor(valueInSeconds / 60);
+        var minutes = roundFunction(valueInSeconds / 60);
         result = result + minutes + minutesLabel;
 
         if (useSeconds) {
